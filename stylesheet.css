@@ -29,8 +29,8 @@ body {
 
 .container {
 	width: 800px;
-	padding-top: 25px;
-	padding-bottom: 50px;
+	margin-top: 25px;
+	margin-bottom: 50px;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -100,3 +100,26 @@ a, a:visited {
 a:hover {
 	color: #999F93;
 }
+
+a.button {
+	width: 150px;
+	height: 50px;
+	padding: 15px;
+	display: block;
+	background: #2e7bcf;
+	color: #fff;
+	font-family: Segoe UI, Helvetica, sans-serif;
+	font-size:16px;
+	margin-right: 10px;
+	float: left;
+	position:relative:
+}
+
+.download-buttons {
+	margin-top: 10px;
+}
+
+.clear {
+	clear:both;
+}
+	
