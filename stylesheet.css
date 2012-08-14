@@ -122,4 +122,8 @@ a.button {
 .clear {
 	clear:both;
 }
+
+.screenshots img {
+	margin-top: 10px;
+}
 	
