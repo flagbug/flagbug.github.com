@@ -20,6 +20,20 @@
 		  })();
 
 		</script>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				// Use anyorigin.com to bypass the same-origin policy
+				$.getJSON('http://anyorigin.com/get?url=https%3A//raw.github.com/flagbug/Espera/master/Changelog.txt&callback=?', function(data){
+					var version = data.contents.match("[0-9].[0-9].[0-9]")[0];
+						
+					$(".download-buttons a").each(function() {
+						this.href = this.href.replace("version", version);
+					});
+				});
+			});
+		</script>
     </head>
   	
     <body>
@@ -55,10 +69,10 @@
                 <section class="download">
                 	<h1>Download</h1>
                     <div class="download-buttons">
-                        <a href="http://github.com/downloads/flagbug/Espera/Espera-1.4.0-setup.exe" class="button">
+                        <a href="http://github.com/downloads/flagbug/Espera/Espera-version-setup.exe" class="button">
                             Download installer version (.exe)
                         </a>
-                        <a href="http://github.com/downloads/flagbug/Espera/Espera-1.4.0-portable.zip" class="button">
+                        <a href="http://github.com/downloads/flagbug/Espera/Espera-version-portable.zip" class="button">
                             Download portable version (.zip)
                         </a>
                     </div>
