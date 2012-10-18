@@ -9,43 +9,43 @@
         
         <script type="text/javascript">
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-34005856-1']);
-		  _gaq.push(['_trackPageview']);
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-34005856-1']);
+          _gaq.push(['_trackPageview']);
 
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
 
-		</script>
-		
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script>
-			$(document).ready(function () {
-				// Use anyorigin.com to bypass the same-origin policy
-				$.getJSON('http://anyorigin.com/get?url=https%3A//raw.github.com/flagbug/Espera/master/Changelog.txt&callback=?', function(data){
-					var version = data.contents.match("[0-9].[0-9].[0-9]")[0];
-						
-					$(".download-buttons a").each(function() {
-						this.href = this.href.replace("version", version);
-					});
-				});
-			});
-		</script>
+        </script>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                // Use anyorigin.com to bypass the same-origin policy
+                $.getJSON('http://anyorigin.com/get?url=https%3A//raw.github.com/flagbug/Espera/master/Changelog.txt&callback=?', function(data){
+                    var version = data.contents.match("[0-9].[0-9].[0-9]")[0];
+                        
+                    $(".download-buttons a").each(function() {
+                        this.href = this.href.replace("version", version);
+                    });
+                });
+            });
+        </script>
     </head>
-  	
+    
     <body>
-    	<div class="container">
+        <div class="container">
             <header>
                 <h1>Flagbug</h1>
                 <h2>Espera</h2>
             </header>
             
             <div class="content">
-            	<article>
-                	<h1>Overview</h1>
+                <article>
+                    <h1>Overview</h1>
                     <p>Espera is a music player/library that is specially designed for partys.</p>
                     <p>It offers features such as locking the player and allowing only to add a certain amount of songs to the playlist at a certain time, or adding music from YouTube to the playlist and streaming the audio track of the video directly.</p>
                     
@@ -61,13 +61,13 @@
                     <p>Espera has built-in support for adding music from MP3-players and other removable devices to the playlist. The music that is added to the playlist will be automatically cached on the computer, so that the devices can be removed without affecting the playback.</p>
                 </article>
                 <section class="screenshots">
-                	<h1>Screenshots</h1>
+                    <h1>Screenshots</h1>
                     <a href="images/espera/screenshot1.jpg">
-                		<img src="images/espera/screenshot1_thumb.png" width="256" height="256" /> 
+                        <img src="images/espera/screenshot1_thumb.png" width="256" height="256" /> 
                     </a>
                 </section>
                 <section class="download">
-                	<h1>Download</h1>
+                    <h1>Download</h1>
                     <div class="download-buttons">
                         <a href="http://github.com/downloads/flagbug/Espera/Espera-version-setup.exe" class="button">
                             Download installer version (.exe)
