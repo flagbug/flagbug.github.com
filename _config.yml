@@ -1,0 +1,17 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            flagbug
+tagline:          ''
+description:      ''
+url:              http://flagbug.com
+
+paginate:         5
+
+github: https://github.com/flagbug
+twitter: https://twitter.com/flagbug

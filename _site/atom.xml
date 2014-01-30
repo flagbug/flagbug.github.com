@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>flagbug</title>
+ <link href="http://flagbug.com/atom.xml" rel="self"/>
+ <link href="http://flagbug.com/"/>
+ <updated>2014-01-30T00:36:51+00:00</updated>
+ <id>http://flagbug.com</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+
+</feed>
