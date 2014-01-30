@@ -7,13 +7,13 @@ With [Mahapps.Metro](https://github.com/MahApps/MahApps.Metro) we've always had 
 
 Today I discovered [Gitter](gitter.im), a fancy new service that allows people to create chatrooms for projects on Github.
 
-They're currently invite only (meaning only people with invites can create chatrooms but people without invites can join them), but after asking I almost immediately got an invite and created the chatroom https://gitter.im/MahApps/MahApps.Metro
+They're currently invite only (meaning only people with invites can create chatrooms but people without invites can join them), but after asking I almost immediately got an invite and created the [Mahapps.Metro chatroom](https://gitter.im/MahApps/MahApps.Metro)
 
 Gitter has an awesome Github integration, so you have an activity log on the right side of the chat where recent issues, pull requests, commits, etc are display. The chat also supports auto-linking of issues, code snippets and Markdown support.
 
 After only a few hours, I've got most of our current contributors to switch from IRC to Gitter and what should I say, it's been an awesome experience.
 
-The team of Gitter responds insanely fast to questions on Twitter and you can also drop in on https://gitter.im/gitterHQ/gitter and ask them questions directly (they even changed that you don't need to be the owner of an organization but only require push access in order to create a chatroom for a organization repository after I asked them if it was possible)
+The team of Gitter responds insanely fast to questions on Twitter and you can also drop in on the [GitterHQ chatroom](https://gitter.im/gitterHQ/gitter) and ask them questions directly (they even changed that you don't need to be the owner of an organization, but only require push access in order to create a chatroom for a organization repository after I asked them if it was possible)
 
 ## The bad parts
 
