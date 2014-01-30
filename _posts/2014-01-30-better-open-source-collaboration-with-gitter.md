@@ -9,7 +9,7 @@ Today I discovered [Gitter](http://gitter.im), a fancy new service that allows p
 
 They're currently invite only (meaning only people with invites can create chatrooms but people without invites can join them), but after asking I almost immediately got an invite and created the [Mahapps.Metro chatroom](https://gitter.im/MahApps/MahApps.Metro)
 
-<img src="images/gitter.png" width="700" />
+<img src="/images/gitter.png" width="700" />
 
 Gitter has an awesome Github integration, there's a configurable activity log on the right side of the chat where recent issues, pull requests, commits, etc are displayed. The chat also supports auto-linking of issues, code snippets and Markdown support.
 
