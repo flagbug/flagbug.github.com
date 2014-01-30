@@ -7,7 +7,7 @@ With [Mahapps.Metro](https://github.com/MahApps/MahApps.Metro) we've always had 
 
 Today I discovered [Gitter](http://gitter.im), a fancy new service that allows people to create chatrooms for projects on Github.
 
-They're currently invite only (meaning only people with invites can create chatrooms but people without invites can join them), but after asking I almost immediately got an invite and created the [Mahapps.Metro chatroom](https://gitter.im/MahApps/MahApps.Metro)
+They're currently invite only (meaning only people with invites can create chatrooms but people without invites can join them), but after asking I almost immediately got an invite and created the [MahApps.Metro chatroom](https://gitter.im/MahApps/MahApps.Metro)
 
 <img src="/images/gitter.png" width="700" />
 
