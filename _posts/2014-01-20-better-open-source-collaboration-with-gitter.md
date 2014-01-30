@@ -3,7 +3,7 @@ layout: post
 title: Better open source collaboration with Gitter
 ---
 
-With [Mahapps.Metro](https://github.com/MahApps/MahApps.Metro) we always had the problem that discussing new plans with the team and all collaborator didn't really work over Github issues. The core team communicated over Skype and we also had an open IRC channel, which was really cumbersome since IRC doesn't preserve the chat history without everyone installing a bot that logs the history on their own server.
+With [Mahapps.Metro](https://github.com/MahApps/MahApps.Metro) we've always had the problem that discussing new plans with the core team and the contributors, or questions from the users didn't really work over Github issues. The core team communicated over Skype and we also had an open IRC channel, which was really cumbersome since IRC doesn't preserve the chat history without everyone installing a bot that logs the history on their own server.
 
 Today I discovered [Gitter](gitter.im), a fancy new service that allows people to create chatrooms for projects on Github.
 
@@ -27,4 +27,4 @@ This isn't too much of a problem for me.
 
 Gitter is an awesome piece of work and I believe it will simplify the collaboration on the projects I'm working on.
 
-The only things that's currently missing for me is an Android app, but from their website it seems that this is on work.
+The only thing that's currently missing for me is an Android app, but from their website it seems that this is in work.
