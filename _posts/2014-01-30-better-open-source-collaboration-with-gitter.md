@@ -11,7 +11,7 @@ They're currently invite only (meaning only people with invites can create chatr
 
 <img src="images/gitter.png" width="700" />
 
-Gitter has an awesome Github integration, so you have an activity log on the right side of the chat where recent issues, pull requests, commits, etc are display. The chat also supports auto-linking of issues, code snippets and Markdown support.
+Gitter has an awesome Github integration, there's a configurable activity log on the right side of the chat where recent issues, pull requests, commits, etc are displayed. The chat also supports auto-linking of issues, code snippets and Markdown support.
 
 After only a few hours, I've got most of our current contributors to switch from IRC to Gitter and what should I say, it's been an awesome experience.
 
