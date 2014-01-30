@@ -4,13 +4,63 @@
  <title>flagbug</title>
  <link href="http://flagbug.com/atom.xml" rel="self"/>
  <link href="http://flagbug.com/"/>
- <updated>2014-01-30T00:36:51+00:00</updated>
+ <updated>2014-01-30T00:54:47+00:00</updated>
  <id>http://flagbug.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Ruby's Net::Http doesn't like redirects and https</title>
+   <link href="http://flagbug.com/2012/12/11/ruby-http-redirects/"/>
+   <updated>2012-12-11T00:00:00+00:00</updated>
+   <id>http://flagbug.com/2012/12/11/ruby-http-redirects</id>
+   <content type="html">&lt;p&gt;I&amp;#39;m currently experimenting with ruby and one thing I needed to do, was retrieving the content of an external website.&lt;/p&gt;
+
+&lt;p&gt;My first approach to this was using the &lt;code&gt;Net::Http.get&lt;/code&gt; method. 
+&lt;strong&gt;The problem:&lt;/strong&gt; this doesn&amp;#39;t follow redirects.&lt;/p&gt;
+
+&lt;p&gt;My second approach was a more complicated version that catches a redirect and requests the content again with the redirect url.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ruby-doc.org/stdlib-1.9.3/libdoc/net/http/rdoc/Net/HTTP.html&quot;&gt;Taken from the ruby docs&lt;/a&gt;
+&lt;script src=&quot;https://gist.github.com/4258731.js?file=fetch.rb&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The problem:&lt;/strong&gt; If the website redirects to https, it will fail with a &lt;a href=&quot;http://www.ruby-doc.org/stdlib-1.9.3/libdoc/net/http/rdoc/Net/HTTPBadRequest.html&quot;&gt;400 HttpBadRequest&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h2&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;After a bit of research, I stumbled over the &lt;a href=&quot;https://rubygems.org/gems/httpclient&quot;&gt;httpclient&lt;/a&gt; gem.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/4258731.js?file=httpclient.rb&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Well, this looks much better!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Crash Reports</title>
+   <link href="http://flagbug.com/2012/12/07/crash-reports/"/>
+   <updated>2012-12-07T00:00:00+00:00</updated>
+   <id>http://flagbug.com/2012/12/07/crash-reports</id>
+   <content type="html">&lt;h2&gt;Simplicity is everything&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;To every developer out there: Make it simple for users to report crashes of your application.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve recently created a simple window that lets users send me the details about crashes that occure in my current project &lt;a href=&quot;http://https://github.com/flagbug/Espera&quot;&gt;Espera&lt;/a&gt;. It only consists of a message that informs the user that the application has crashed, a details box and two buttons: &lt;em&gt;Send&lt;/em&gt; and &lt;em&gt;Cancel&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;You wouldn&amp;#39;t believe how much bug/crash reports I&amp;#39;ve received in 2 days after I releases the new reporting system. Bugs that I hadn&amp;#39;t the time to cover in my unit tests, or that I never would think of.  Bugs that were invisible to me, till users experienced them.&lt;/p&gt;
+
+&lt;p&gt;As a user and developer at the same time &lt;a href=&quot;http://www.codinghorror.com/blog/2004/09/the-rise-and-fall-of-homo-logicus.html&quot;&gt;(some people might disagree)&lt;/a&gt;, I can tell you one thing: Make it easy for users to submit crash- and bug reports. The last thing you want is to fiddle through a dozen of steps so you can submit this one bug to the developer of an application.&lt;/p&gt;
+
+&lt;h2&gt;FogBugz makes it easy&lt;/h2&gt;
+
+&lt;p&gt;Since I&amp;#39;m the only developer of Espera, I&amp;#39;m able to use the free &lt;a href=&quot;http://www.fogcreek.com/fogbugz/StudentAndStartup.html&quot;&gt;Student and Startup edition&lt;/a&gt;  of FogBugz. &lt;a href=&quot;https://github.com/flagbug/Espera/blob/92dc8d98b38bd7a96ec317be0893e47da2438fad/Espera/Espera.Services/FogBugzService.cs&quot;&gt;20 lines of code later&lt;/a&gt;, I&amp;#39;ve integrated it within my the application, since FogBugz allows the send bug reports directly through a Http request.&lt;/p&gt;
+
+&lt;p&gt;One thing I learned: always send at least the &lt;strong&gt;version number&lt;/strong&gt; of your application with the crash report, so you can easily distinguish new crashes from crashes that appear only because the user hasn&amp;#39;t updated the application yet.&lt;/p&gt;
+</content>
+ </entry>
  
 
 </feed>
