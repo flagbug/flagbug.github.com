@@ -12,7 +12,7 @@ I'm mostly working on open source projects, such as [MahApps.Metro](https://gith
 ### [Mahapps.Metro](https://github.com/MahApps/MahApps.Metro)
 A UI toolkit for creating Metro (Modern-UI) styled WPF applications.
 
-### [Espera](https://github.com/flagbug/Espera)
+### [Espera](http://flagbug.espera.com)
 A media player for Windows that has a "party mode", seamless YouTube integration and an Android remote control.
 
 Written in C#, using WPF and Reactive Extensions.
