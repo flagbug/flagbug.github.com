@@ -14,4 +14,4 @@ $(function() {
 })
 ```
 
-Since we're keeping our release notes in our repository and just copy pasted it into the Github releases section, this is a neat way to avoid linking each issue manually.
+Since we're keeping our release notes in our repository and just copy paste it into the Github releases section, this is a neat way to avoid linking each issue manually.
