@@ -25,6 +25,8 @@ Gitter requires write access to your Github account, this is a limitation of the
 
 This isn't too much of a problem for me.
 
+**Update:** Gihub has since updated their access permission model and Gitter doesn't require write access anymore
+
 ## Conclusion
 
 Gitter is an awesome piece of work and I believe it will simplify the collaboration on the projects I'm working on.
