@@ -25,7 +25,7 @@ Gitter requires write access to your Github account, this is a limitation of the
 
 This isn't too much of a problem for me.
 
-**Update:** Gihub has since updated their access permission model and Gitter doesn't require write access anymore
+**Update:** Github has since updated their access permission model and Gitter doesn't require write access anymore
 
 ## Conclusion
 
