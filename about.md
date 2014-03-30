@@ -9,7 +9,7 @@ I'm mostly working on open source projects, such as [MahApps.Metro](https://gith
 
 ## Projects I'm working on
 
-### [Mahapps.Metro](https://github.com/MahApps/MahApps.Metro)
+### [MahApps.Metro](https://github.com/MahApps/MahApps.Metro)
 A UI toolkit for creating Metro (Modern-UI) styled WPF applications.
 
 ### [Espera](http://getespera.com)
