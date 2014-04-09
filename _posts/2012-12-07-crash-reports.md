@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Crash Reports
+comments: true
 ---
 
 ## Simplicity is everything

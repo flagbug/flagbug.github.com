@@ -1,6 +1,7 @@
 ---
 lyout: post
 title: Ruby's Net::Http doesn't like redirects and https
+comments: true
 ---
 
 I'm currently experimenting with ruby and one thing I needed to do, was retrieving the content of an external website.

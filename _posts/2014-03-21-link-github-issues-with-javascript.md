@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Link Github issues with Javascript
+comments: true
 ---
 
 Here is a quick code snippet that I used in the new [Mahapps.Metro News page](http://mahapps.com/MahApps.Metro/news) to link Github issue numbers to their corresponding URL:

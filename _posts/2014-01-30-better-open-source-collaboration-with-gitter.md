@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Better open source collaboration with Gitter
+comments: true
 ---
 
 With [Mahapps.Metro](https://github.com/MahApps/MahApps.Metro) we've always had the problem that discussing new plans with the core team and the contributors, or questions from the users didn't really work over Github issues. The core team communicated over Skype and we also had an open IRC channel, which was really cumbersome since IRC doesn't preserve the chat history without everyone installing a bot that logs the history on their own server.
