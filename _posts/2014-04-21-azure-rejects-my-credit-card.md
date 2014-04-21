@@ -9,8 +9,8 @@ Since I'm already registered with Amazon AWS and Google Cloud, a registration wi
 
 So I registered with my email address and password, entered my credit card information and pressed the register button.
 
-*We can't authorize the payment method. Please make sure the information is correct, or use another payment method. 
-If you continue to get this message, please contact your financial institution.*
+**We can't authorize the payment method. Please make sure the information is correct, or use another payment method. 
+If you continue to get this message, please contact your financial institution.**
 
 Wat.
 
