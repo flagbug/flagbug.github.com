@@ -121,7 +121,7 @@ public static IObservable<Pair<T>> MatchPair<T, TKey>(this IObservable<T> left, 
 
 ```
 
-Additionally we also need the `Pair` structure that stored the left and right value
+In addition we need the `Pair` structure that stores the left and right value
 
 ```csharp
 public struct Pair<T>
