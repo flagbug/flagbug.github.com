@@ -13,7 +13,7 @@ An example:
 var sequence1 = new[]{3, 1, 4, 2}.ToObservable();
 var sequence2 = new[]{1, 2, 3, 4}.ToObservable();
 
-var result = sequence1.MatchPair(sequence2).Subscribe(x => Console.WritleLine("{0} {1}", x.Left, x.Right));
+var result = sequence1.MatchPair(sequence2).Subscribe(x => Console.WriteLine("{0} {1}", x.Left, x.Right));
 ```
 
 This should print
