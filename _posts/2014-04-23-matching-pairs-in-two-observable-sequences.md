@@ -139,7 +139,7 @@ public struct Pair<T>
 }
 ```
 
-and a small helper methid for the `CompositeDisposable` class
+and a small helper method for the `CompositeDisposable` class
 (Alternatively you can wrap the subscribe methods in a `disposable.Add`)
 
 ```csharp
