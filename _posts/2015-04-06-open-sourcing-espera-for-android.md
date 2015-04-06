@@ -18,4 +18,4 @@ Espera for Android is written with Xamarin for Android, Reactive Extensions, Rea
 so I hope it helps people who want to learn writing apps with these libraries.
 
 Please note that this is my first Xamarin/Android application, 
-so it may or may not follow the best practices on the Android platform.
+so it may or may not follow the best practices of the Android platform.
