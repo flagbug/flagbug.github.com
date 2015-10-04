@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-My name is Dennis Daume, I'm the CTO and Co-Founder of [HelloCode](http://hellocode.io), a startup that teaches people how to learn to code on their smartphones.
+My name is Dennis Daume, I'm the CTO and Co-Founder of [HelloCode](http://hellocode.io), a startup that teaches people how to learn to code, on their smartphones.
 
 Other than that I'm mostly working on open source projects, such as [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) and [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
 
