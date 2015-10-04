@@ -3,14 +3,17 @@ layout: page
 title: About
 ---
 
-My name is Dennis Daume, I'm a 22 year old developer from Vienna, Austria.
+My name is Dennis Daume, I'm the CTO and Co-Founder of [HelloCode](http://hellocode.io), a startup that teaches people how to learn to code on their smartphones.
 
-I'm mostly working on open source projects, such as [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) and [Espera](https://github.com/flagbug/Espera)
+Other than that I'm mostly working on open source projects, such as [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) and [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
 
-## Projects I'm working on
+## Open-Source projects I'm working on
 
 ### [MahApps.Metro](https://github.com/MahApps/MahApps.Metro)
 A UI toolkit for creating Metro (Modern-UI) styled WPF applications.
+
+### [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
+A MVVM framework that integrates with the Reactive Extensions for .NET
 
 ### [Espera](http://getespera.com)
 A media player for Windows that has a "party mode", seamless YouTube integration and an Android remote control.
