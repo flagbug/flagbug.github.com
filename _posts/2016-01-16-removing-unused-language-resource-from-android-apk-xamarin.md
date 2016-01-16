@@ -34,4 +34,4 @@ Fortunately, after some research, I've found a semi-manual solution that I've al
 5. Recompile your app with `apktool b MyApp`
 6. The recompiled app package is now in `MyApp/dist/MyApp.apk`. Take this file and sign it with the signtool, then zipalign it. 7. Upload the apk to Google Play
 
-I'm sure there is a way to automate this with a script, but I haven't yet created one.
+I'm sure there is a way to automate this with a script, but I haven't yet created one yet.
